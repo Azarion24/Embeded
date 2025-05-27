@@ -70,18 +70,18 @@ This project provides a command-line interface over UART for configuring and mon
 ==== STM32L432KC Clock System ====
 Type 'help' to see available commands
 
-    msi16
-    SYSCLK: 16 MHz (MSI)
-    lseon
-    LSE ready (32.768 kHz)
-    calibrate
-    Calibrating MSI...
-    MSI calibrated! Accuracy: +-0.25%
-    pll
-    SYSCLK: 80 MHz (PLL)
-    mcosys4
-    MCO: sys /4
-    status
+msi16
+SYSCLK: 16 MHz (MSI)
+lseon
+LSE ready (32.768 kHz)
+calibrate
+Calibrating MSI...
+MSI calibrated! Accuracy: +-0.25%
+pll
+SYSCLK: 80 MHz (PLL)
+mcosys4
+MCO: sys /4
+status
 
 --- Status ---
 SYSCLK: 80 MHz
