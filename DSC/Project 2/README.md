@@ -40,16 +40,19 @@ This project provides a command-line interface over UART for configuring and mon
 
 ## UART Command Set
 
-| Command                | Description                                                        |
-|------------------------|--------------------------------------------------------------------|
-| `help`                 | Show help and available commands                                   |
-| `msi[4|8|16|24|48]`    | Set MSI frequency in MHz (e.g., msi16 for 16 MHz)                |
-| `hsi`                  | Switch SYSCLK to HSI (16 MHz)                                     |
-| `pll`                  | Switch SYSCLK to PLL (80 MHz, source: HSI)                        |
-| `lseon`                | Enable LSE (32.768 kHz crystal)                                   |
-| `calibrate`            | Calibrate MSI using LSE                                            |
+## UART Command Set
+
+| Command                    | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| `help`                    | Show help and available commands                                            |
+| `msi[4|8|16|24|48]`       | Set MSI frequency in MHz (e.g., msi16 for 16 MHz)                           |
+| `hsi`                     | Switch SYSCLK to HSI (16 MHz)                                               |
+| `pll`                     | Switch SYSCLK to PLL (80 MHz, source: HSI)                                  |
+| `lseon`                   | Enable LSE (32.768 kHz crystal)                                             |
+| `calibrate`               | Calibrate MSI using LSE                                                     |
 | `mco[off|sys|hsi|msi|pll|lse][1|2|4]` | Configure MCO output source and prescaler (e.g., mcosys2 for SYSCLK/2) |
-| `status`               | Show current clock and system status                               |
+| `status`                  | Show current clock and system status                                        |
+
 
 **Examples:**
 - `msi48` — Set MSI to 48 MHz and switch SYSCLK to MSI
