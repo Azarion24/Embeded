@@ -79,7 +79,7 @@ Interact with the system via UART (9600 baud, 8N1). Supported commands:
 
 ## Example UART Session
 
-START LED
+```START LED
 > START LED
 LED blinking started
 > SET PERIOD 500
@@ -95,7 +95,7 @@ AVG: 1672
 > 
 !!! ALERT: Value 1820 above limit !!!
 >
-
+```
 ---
 
 ## Hardware & Configuration
