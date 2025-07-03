@@ -67,7 +67,7 @@ The device is powered by **two 3.7V 2200mAh Li-Ion cells connected in series** (
   In the event of GSM and GPS jamming (detected by the system), an emergency communication channel using RF 433 MHz will be activated.  
   - The STM32 will transmit an alert via RF.
   - A receiver based on ESP (e.g., ESP32) will receive the RF signal and update the vehicle status in Firebase.
-  - This ensures that the user is notified in the mobile app about a possible theft or tampering, even if cellular and GPS signals are blocked[1][3][5].
+  - This ensures that the user is notified in the mobile app about a possible theft or tampering, even if cellular and GPS signals are blocked.
 
 ---
 
